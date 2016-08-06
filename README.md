@@ -13,3 +13,23 @@
 	* 下拉菜单需要美化
 * 导航栏部分：
 	* 照片墙的定位不准
+
+### 使用须知
+
+> 如果第一次使用github，可能由于key的问题无法clone项目，请参看["添加SSH key"](http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/001374385852170d9c7adf13c30429b9660d0eb689dd43a000 )
+> 
+> $ git clone git@github.com:liuwnzh/recruit2016.git 将项目clone到本地
+> 
+> $ git push [-u] origin master 推送本地内容到远程库，第一次使用推送需要加 -u 
+> 
+> $ git pull origin master 提交到远程库前更新本地，以免发生冲突
+>
+>更多命令或问题请参看一些git教程
+
+
+
+
+
+
+
+
