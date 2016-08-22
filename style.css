@@ -153,7 +153,7 @@ body{
 	opacity: .25;
 }
 .join_table_wrap{
-	margin:-650px 0 0 300px;
+	margin:-670px 0 0 300px;
 	opacity: .85;
 	position: relative;
 	width: 560px
@@ -161,7 +161,6 @@ body{
 .join_table{
 	width: 560px;
 	border: 0;
-	text-align: left;
 }
 .join_warning{
 	font-family: 微软雅黑;
@@ -210,19 +209,18 @@ body{
 	margin-top: 10px;
 	font-family: 微软雅黑;
 	font-size: 22px;
-	border:2px solid #fff;
-	border-bottom: none;
 	outline: none;
+	border: none;
 	color: #fff8e3;
 	background:rgba(0, 0, 0, 0);
-	border-radius: 4px;
     cursor: pointer;
 }
 select option.join_select_option.disabled{
-	color: #eee;
+	color: #aaa;
+	background: rgb(60,60,60);
 }
 select option.join_select_option{	
-	color:#666;
+	background: rgb(60,60,60);
 	cursor: pointer!important;
 }
 
@@ -241,7 +239,8 @@ select option.join_select_option{
 .join_submit_button{
 	height: 50px;
 	width: 150px;
-	margin-top: 29px;
+	margin-top: 20px;
+	text-align: center;
 	background-color: orange;
 	color: white;
 	font-family: 微软雅黑;
